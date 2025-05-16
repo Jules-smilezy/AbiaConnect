@@ -9,16 +9,16 @@ ALLOWED_HOSTS = ['moldaton.com', '159.223.179.77', 'www.growingseeds.com']
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'social',
-        'USER': 'social',
-        'PASSWORD': 'def@ult2017',
-        'HOST': 'localhost',
-        'PORT': '',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'social',
+#         'USER': 'social',
+#         'PASSWORD': 'def@ult2017',
+#         'HOST': 'localhost',
+#         'PORT': '',
+#     }
+# }
 
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
