@@ -11,10 +11,10 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
-from decouple import config
+#from decouple import config
 from dotenv import load_dotenv
 
-load_dotenv()
+#load_dotenv()
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
@@ -27,8 +27,6 @@ SECRET_KEY = 'django-insecure-5s^^j6r5n^x2pu+e!nn+&2jxr^=!4*=*$1p@o5=ikpk#kh6_+u
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 # Application definition
@@ -47,6 +45,7 @@ INSTALLED_APPS = [
     'news',
     'drf_spectacular',
     'drf_spectacular_sidecar',
+    'rest_framework_simplejwt',
 
     # third party apps - UNCOMMENT THESE
     'rest_framework',
@@ -162,6 +161,8 @@ DEFAULT_FROM_EMAIL = 'no-reply@yourdomain.com'
 
 FRONTEND_URL = "http://localhost:3000"
 
+'''
 TWILIO_ACCOUNT_SID = config('TWILIO_ACCOUNT_SID')
 TWILIO_AUTH_TOKEN = config('TWILIO_AUTH_TOKEN')
 TWILIO_PHONE_NUMBER = config('TWILIO_PHONE_NUMBER')
+'''
