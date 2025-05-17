@@ -4,7 +4,7 @@ import os
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG =  False
 
-ALLOWED_HOSTS = ['moldaton.com', '159.223.179.77', 'www.growingseeds.com']
+ALLOWED_HOSTS = ['moldaton.com', '159.223.179.77', 'www.growingseeds.com','abiaconnect.onrender.com']
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
