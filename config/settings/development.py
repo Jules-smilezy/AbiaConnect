@@ -3,7 +3,7 @@ from .base import *
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://abiaconnect.onrender.com', 'abiaconnect.onrender.com' ]
+ALLOWED_HOSTS = ['abiaconnect.onrender.com', 'abiaconnect.onrender.com', 'smilezy.pythonanywhere.com' ]
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
