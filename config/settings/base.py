@@ -11,8 +11,6 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
-#from decouple import config
-from dotenv import load_dotenv
 
 #load_dotenv()
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -43,9 +41,7 @@ INSTALLED_APPS = [
     'api',
     'chats',
     'news',
-    'drf_spectacular',
-    'drf_spectacular_sidecar',
-    'rest_framework_simplejwt',
+    
 
     # third party apps - UNCOMMENT THESE
     'rest_framework',
